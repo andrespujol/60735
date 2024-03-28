@@ -1,13 +1,10 @@
 .counterContainer {
-
-    /* width: 20rem; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .counterContainer .btnCounter {
-    height: 2rem;
-    width: 2rem;
-    /* background-color: aqua; */
+    height: 2.5rem;
+    width: 2.5rem;
 }

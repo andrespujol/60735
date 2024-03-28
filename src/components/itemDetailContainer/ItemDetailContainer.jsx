@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { getProductById } from '../../data/asyncMock'
 import { useParams } from 'react-router-dom'
 import ItemDetail from '../itemDetail/ItemDetail'
-import { Spinner } from '@chakra-ui/react'
+import { Flex, Spinner } from '@chakra-ui/react'
 
 
 const ItemDetailContainer = () => {
@@ -24,15 +24,21 @@ const ItemDetailContainer = () => {
     <div>
               {
         loading ? 
-        <Spinner
-          thickness='4px'
-          speed='0.65s'
-          emptyColor='gray.200'
-          color='blue.500'
-          size='xl'
-        /> : 
+        <Flex justify={'center'} align={'center'} h={'90vh'}>
+
+          <Spinner
+            thickness='4px'
+            speed='0.65s'
+            emptyColor='gray.200'
+            color='#243F4D'
+            size='xl'
+            /> 
+          </Flex>
+          : 
         <>
+        <Flex justify={'center'} align={'center'} h={'70vh'}>
           <ItemDetail {...product} />
+        </Flex>
         </>
       }
     </div>

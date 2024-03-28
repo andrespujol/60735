@@ -2,5 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(47, 47, 199);
+    background-color: #FCD7B6;
+    height: 10vh;
 }
+
+.btnDropdown:hover {
+    background-color: #3E6478;
+    color: #fff;
+}
+
+/* #FCD7B6 */
+/*  #436372 */

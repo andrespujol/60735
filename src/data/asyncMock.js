@@ -17,7 +17,7 @@ export const productos = [
     stock: 5,
     descripcion:
       "Buzo Unisex 100% Algodón. Cuello Redondo con refuerzo en los cuellos y mangas",
-    img: "https://acdn.mitiendanube.com/stores/605/358/products/165bn1-68089a57bae4b2579916833144477754-1024-1024.png",
+    img: "https://http2.mlstatic.com/D_NQ_NP_835655-MLA45781466100_052021-O.webp",
   },
   {
     id: 3,
@@ -41,9 +41,9 @@ export const productos = [
   },
   {
     id: 5,
-    nombre: "Zapatillas De Lona Pintadas A Mano Rick And Morty",
+    nombre: "Zapatillas",
     precio: 14900,
-    categoria: "Zapatillas",
+    categoria: "Zapatillas De Lona Pintadas A Mano Rick And Morty",
     stock: 5,
     descripcion:
       "Zapatilla de lona reforzada. Pintada a mano con pintura de calidad.",
